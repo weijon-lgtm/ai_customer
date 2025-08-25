@@ -1,0 +1,32 @@
+# qa-service/src/main/resources/application.yml
+server:
+  port: 8082
+
+spring:
+  config:
+    import: "nacos:qa-service.yaml"
+  application:
+    name: qa-service
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      timeout: 10s
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+deepseek:
+  api:
+    key: ${DEEPSEEK_API_KEY}  #替换为自己的deepseek api key
+    url: https://api.deepseek.com
+  model: deepseek-chat
+
+# Thread pool configuration
+thread-pool:
+  core-size: 10
+  max-size: 20
+  queue-capacity: 100
+  keep-alive-seconds: 60

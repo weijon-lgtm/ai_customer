@@ -1,0 +1,9 @@
+# account-service/src/main/resources/bootstrap.yml
+spring:
+  application:
+    name: account-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml

@@ -1,0 +1,13 @@
+# gateway-service/src/main/resources/bootstrap.yml
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    nacos:
+      config:
+        server-addr: http://localhost:8848 #localhost:8848
+        file-extension: yaml
+        namespace: "" # 如果有命名空间，在这里配置
+      discovery:
+        server-addr: http://localhost:8848 #localhost:8848
+        namespace: ""  # 明确指定为空字符串

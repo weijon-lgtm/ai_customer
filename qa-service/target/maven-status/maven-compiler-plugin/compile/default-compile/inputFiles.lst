@@ -1,0 +1,9 @@
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\config\RedisConfig.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\client\HistoryServiceClient.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\client\KnowledgeServiceClient.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\entity\Answer.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\controller\QaController.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\service\DeepSeekService.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\config\DeepSeekConfig.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\entity\Question.java
+E:\java-workplace\ai-customer-service\qa-service\src\main\java\com\example\qa\QaApplication.java

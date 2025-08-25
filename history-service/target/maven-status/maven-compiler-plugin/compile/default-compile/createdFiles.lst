@@ -1,0 +1,6 @@
+com\example\history\mapper\QaHistoryMapper.class
+com\example\history\dto\PageResult.class
+com\example\history\entity\QaHistory.class
+com\example\history\controller\QaHistoryController.class
+com\example\history\HistoryApplication.class
+com\example\history\service\QaHistoryService.class
