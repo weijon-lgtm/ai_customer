@@ -12,4 +12,4 @@
 
 其它配置文件如nacos可根据自己需要修改。
 
-前端文件为front-vue3。
+前端文件为fronted-vue3。
